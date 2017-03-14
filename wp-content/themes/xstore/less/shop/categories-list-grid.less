@@ -1,0 +1,132 @@
+// Category list grid
+.categories-lists-grid{
+	margin-left: -15px;
+	margin-right: -15px;
+	.category-list-item-wrapper{
+		float: left;
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-bottom: 30px;
+	}
+	&.categories-columns-2{
+		.category-list-item-wrapper{
+			width: 50%;
+			&:nth-child(2n+1){
+				clear: both;
+			}
+		}
+	}
+	&.categories-columns-3{
+		.category-list-item-wrapper{
+			width: 33.33%;
+			&:nth-child(3n+1){
+				clear: both;
+			}
+		}
+	}
+	&.categories-columns-4{
+		.category-list-item-wrapper{
+			width: 25%;
+			&:nth-child(4n+1){
+				clear: both;
+			}
+		}
+	}
+	&.categories-columns-5{
+		.category-list-item-wrapper{
+			width: 20%;
+			&:nth-child(5n+1){
+				clear: both;
+			}
+		}
+	}
+	&.categories-columns-6{
+		.category-list-item-wrapper{
+			width: 16.67%;
+			&:nth-child(6n+1){
+				clear: both;
+			}
+		}
+	}			
+}
+.category-list-item{
+	border:1px solid #e6e6e6;
+	padding: 20px 20px 10px 20px;
+	img{
+		margin-bottom: 15px;
+		display: block;
+	}
+	>ul{
+		margin-bottom: 0;
+	}
+	ul{
+		padding-left: 0;
+		li{
+			list-style: none;
+			margin-bottom: 0;
+			line-height: 1.2;
+			margin-bottom: 15px;
+			&:last-child{
+				margin-bottom: 0;
+			}
+			a{
+				font-size: 13px;
+				color: #999999;
+				.transition();
+
+				mark{
+					background-color: transparent;
+					color: #999;
+					padding-right: 0;
+				}
+				&:hover{
+					color: #1e1e1e;
+				}
+			}
+			>a{
+				margin-bottom: 15px;
+				display: block;
+			}
+			ul li ul{
+				>li{
+					padding-left: 10px;
+					position: relative;
+					&:before{
+						content:"\f105";
+						font-family: FontAwesome;
+						position: absolute;
+						left: 0;
+						line-height: 1;
+					}
+					&:last-child{
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+	>ul>li>a{
+		font-size: 14px;
+		font-weight: 600;
+		color: #1e1e1e;
+		margin-bottom: 15px;
+		display: block;
+		.transition();
+		mark{
+			display: none;
+		}
+	}
+}
+
+.categories-lists-slider{
+	width: auto !important;
+	margin-left: -15px;
+	margin-right: -15px;
+	.category-list-item-wrapper{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.owl-controls{
+		margin-top: 30px;
+	}
+}

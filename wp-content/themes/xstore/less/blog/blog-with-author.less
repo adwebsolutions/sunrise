@@ -1,0 +1,51 @@
+// Content with author
+.content-with-author{
+	.post-heading{
+		display: flex;
+		margin-bottom: 0;
+		position: relative;
+		z-index: 100;
+		align-items:flex-end;
+		.author-info{
+			display: inline-block !important;
+			vertical-align: middle;
+			width:100px;
+			min-width: 100px;
+			margin-right: 15px;
+			margin-left: 10px;
+			padding-top: 0;
+			margin-bottom: -20px;
+			font-size: 0;
+			border:4px solid #fff;
+			border-radius: 100%;
+			img{
+				border-radius: 100%;
+				margin: 0;
+				width: 100%;
+			}
+		}
+		.post-heading-inner{
+			display: inline-block;
+			vertical-align: middle;
+			.meta-post{
+				text-transform: uppercase;
+				font-size: 0.9rem;
+				letter-spacing: 1px;
+			}
+			.entry-title{
+				text-transform: capitalize;
+				font-size: 26px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width:600px){
+	.content-with-author{
+		.post-heading{
+			.author-info{
+				display: none !important;
+			}
+		}
+	}
+}

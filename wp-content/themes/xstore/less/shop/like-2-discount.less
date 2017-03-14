@@ -1,0 +1,74 @@
+/*Like 2 discount plugin custom style*/
+.l2d-body {
+	.description{
+		text-align: center;
+	}
+	footer .get-coupon-description span {
+		font-weight: 700;
+	}
+	header h2{
+		text-align: center;
+		font-weight: 900;
+		font-size: 28px;
+		text-transform: uppercase;
+	}
+	.like-and-email .le-entry.like-btn .like-box {
+		margin: 0;
+		width: initial;
+	    height: initial;
+		left: 50%
+	}
+	.errors-container,.successmsg-container{
+		font-size: 14px;
+	}
+}
+.l2d-overlay.visible.animated.fadeOut {
+	animation: none;
+	display: none;
+}
+.fb_iframe_widget iframe {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/*Banner*/
+.l2d-loop-banner a,
+.l2d-single-banner-type-text a,
+.l2d-single-banner.l2d-single-banner-type-text a{ 
+	border: 0;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	background: #3b5998;
+	padding: 10px;
+	text-align: center;
+		&:hover{  
+			background-color: lighten(#3b5998, 10%);
+			color: #fff; 
+		}
+	}
+
+.filter-content .l2d-loop-banner{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+	.l2d-body header h2 {
+		font-size: 20px;
+		line-height: 1.4;
+	}
+	.l2d-body .like-and-email .le-entry {
+		padding: 15px 20px;
+	}
+	.l2d-body .like-and-email .le-entry .step {
+		font-size: 40px;
+	}
+	.l2d-body .like-and-email .le-entry.email-btn .email-box {
+		margin-top: 0;
+	}
+	.l2d-body footer .get-coupon-description span {
+		font-size: 14px;
+	}
+}

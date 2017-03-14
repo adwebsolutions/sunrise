@@ -1,0 +1,85 @@
+/*ul#menu-main-menu-1 {
+    width: 135% !important;
+    margin-left: -20% !important;
+}*/
+
+
+.menu-wrapper .menu > li > a {
+    font-size: 0.89em !important;
+    margin-left: -0.79em !important;
+}
+
+.header-xstore .menu-wrapper {
+    width: 70% !important;
+}
+
+ul#menu-main-menu-1 .nav-sublist-dropdown{
+	top:25.5px !important;
+}
+
+.nav-sublist-dropdown .item-link {
+    font-size: 0.85rem !important;
+ 
+}
+
+.category-grid.text-color-dark h4 {
+    color: #ffffff !important;
+    font-size: 1.2em !important;
+}
+
+.category-grid.text-color-dark .count {
+    display: none !important;
+}
+
+.categories-grid.no-space .category-grid {
+    padding: 15px !important;
+}
+
+
+/*COculta la foto grande de los post del Blogs*/
+/*.wp-picture.blog-hover-animated{
+	display: none !important;
+}
+*/
+
+
+div#woocommerce_product_categories-15.widget_product_categories .widget-title{
+    background-color: #262626 !important;
+}
+
+input{
+   line-height: 1.5 !important;
+ }
+
+
+ /*Formulario de contacto*/
+
+ textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required,
+ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
+ .input-text,
+ .select2-drop-mask,
+ #s2id_billing_state  {
+    background-color: #f2f2f2 !important;
+}
+
+/*Trabajando en las entradas del blog*/
+
+ article.post-grid .wp-picture img, article.blog-post .wp-picture img{
+    max-width: 45% !important;	
+ }
+
+ .post-categories {
+    display: none !important;
+}
+
+
+
+/*Select de filtro por categorías*/
+.shop-filters-area .sidebar-widget .widget-inner select {
+    color: #262626;
+    text-decoration-color: blue;
+    background-color: #f2f2f2 !important;
+    font-weight: 700;
+}
+
+

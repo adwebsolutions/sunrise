@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1\n"
 "Project-Id-Version: XStore\n"
-"POT-Creation-Date: 2017-03-15 14:27+0000\n"
-"PO-Revision-Date: 2017-03-15 14:27+0000\n"
+"POT-Creation-Date: 2017-03-15 14:26+0000\n"
+"PO-Revision-Date: 2017-03-15 14:26+0000\n"
 "Language-Team: Spanish (Mexico)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4598,7 +4598,7 @@ msgstr "Mi Cuenta"
 
 #: woocommerce/cart/cart-empty.php:35
 msgid "YOUR SHOPPING CART IS EMPTY"
-msgstr "Su carrito de compras está vacío."
+msgstr "Su carrito de compras está vacío"
 
 #: woocommerce/cart/cart-empty.php:36 woocommerce/loop/no-products-found.php:17
 msgid ""
